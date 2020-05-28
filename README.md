@@ -9,7 +9,7 @@ Here i have proposed my own algorithm for resizing and i have compared the PSNR 
 We retrive pixels stpe by step : 
 - pixels that row and coulmn numbers are odd. these pixels are exact copy of pixels of oroginal image so we just copy them in final image.
 - after prevoius step from every 4 pixels of Image we have one of them so for pixels that have neighbours that have been calculated in step 1 we use Averge of its neighbour for its pixel value.
-- at last for each 4 pixels of picture we just don not have one of them that we use Average of its four neighbour fo its pixel value.
+- at last for each 4 pixels of picture we just don not have one of them that we use Average of its four neighbour for its pixel value.
 
 I use 3 images to compare my PSNR results with Biqubic algorithm .results of comparison are below:
 
